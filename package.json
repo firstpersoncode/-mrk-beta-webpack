@@ -1,6 +1,6 @@
 {
-  "name": "webpack",
-  "version": "1.0.0",
+  "name": "@mrk-beta/webpack",
+  "version": "1.0.0-beta",
   "description": "",
   "main": "dist/lib.js",
   "scripts": {
