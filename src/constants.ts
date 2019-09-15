@@ -1,5 +1,5 @@
-import path from 'path'
-import fs from 'fs'
+import * as path from 'path'
+import * as fs from 'fs'
 
 export const CWD: string = process.cwd()
 export const ENV: any = process.env
@@ -20,15 +20,3 @@ export const paths: any = {
     TS_CONFIG: resolveApp('tsconfig.json'),
     PUBLIC_PATH: '/',
 }
-
-// export const paths: Paths = {
-//     ...commonPaths,
-//     resolveModules: [
-//         commonPaths.CLIENT,
-//         commonPaths.SERVER,
-//         commonPaths.STORE,
-//         commonPaths.APP,
-//         commonPaths.SRC,
-//         'node_modules',
-//     ],
-// }

@@ -31,7 +31,7 @@ export interface Resolve {
 }
 
 export interface WebpackConfig {
-    mode: string
+    mode: 'development' | 'production' | 'test'
     name: string
     target: string
     resolve: Resolve

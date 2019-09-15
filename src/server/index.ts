@@ -10,7 +10,7 @@ import loaders from './loaders'
 import plugins from './plugins'
 
 const webpackConfig: WebpackConfig = {
-    mode: ENV.NODE_ENV,
+    mode: ENV.NODE_ENV || 'production',
     name: 'server',
     target: 'node',
     resolve,

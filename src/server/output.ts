@@ -1,4 +1,4 @@
-import path from 'path'
+import * as path from 'path'
 
 import { Output } from '../types'
 import { CWD, paths } from '../constants'

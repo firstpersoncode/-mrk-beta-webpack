@@ -1,13 +1,14 @@
 {
   "name": "@mrk-beta/webpack",
-  "version": "1.0.0-beta",
+  "version": "1.0.4-beta",
   "description": "",
   "main": "dist/lib.js",
   "scripts": {
-    "build": "NODE_ENV=production yarn run clean && tsc && yarn run test && webpack -p",
+    "build": "yarn run clean && yarn run test && tsc",
     "clean": "rm -rf dist",
     "test": "jest --coverage --runInBand",
-    "check": "npm-check"
+    "check": "npm-check",
+    "tester": "node ./test.js"
   },
   "keywords": [
     "ssr",
@@ -44,8 +45,7 @@
     "jest-cli": "^24.9.0",
     "npm-check": "^5.9.0",
     "ts-jest": "^24.1.0",
-    "typescript": "^3.6.3",
-    "webpack-cli": "^3.3.8"
+    "typescript": "^3.6.3"
   },
   "dependencies": {
     "awesome-typescript-loader": "^5.2.1",

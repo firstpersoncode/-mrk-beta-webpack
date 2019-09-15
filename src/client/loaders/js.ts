@@ -1,4 +1,4 @@
-import path from 'path'
+import * as path from 'path'
 
 import { Loader } from '../../types'
 import { CWD, paths } from '../../constants'

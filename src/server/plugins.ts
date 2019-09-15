@@ -1,4 +1,4 @@
-import path from 'path'
+import * as path from 'path'
 import webpack from 'webpack'
 import WriteFileWebpackPlugin from 'write-file-webpack-plugin'
 import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer'
